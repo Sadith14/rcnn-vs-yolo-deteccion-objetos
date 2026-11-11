@@ -1,16 +1,17 @@
 # Detección de objetos con R-CNN y YOLO en imágenes y video
 
 **Universidad Nacional del Altiplano · Ingeniería de Sistemas · Visión Artificial**
+
 Actividad 06 · Segunda unidad · Docente: Ing. Fernández Chambi, Mayenka
 
 Cuatro aplicaciones que comparan la detección de objetos con **Faster R-CNN** (dos etapas) y **YOLO** (una etapa), sobre imágenes y sobre video o simulación de tiempo real. Todos los modelos usan pesos preentrenados en **COCO (80 clases)**.
 
 | Ítem | Enfoque | Medio | Aplicación | Interfaz |
 |---|---|---|---|---|
-| [1](#ítem-1--faster-r-cnn-en-imágenes) | Faster R-CNN / Mask R-CNN | Imágenes | `rcnn_detector.py` | Tkinter · consola · Gradio |
-| [2](#ítem-2--yolo-en-imágenes) | YOLO11 / YOLO12 | Imágenes | `yolo_detector.py` | CustomTkinter · consola · Gradio |
-| [3](#ítem-3--faster-r-cnn-en-video--tiempo-real) | Faster R-CNN / Mask R-CNN | Video / tiempo real | `app_frcnn.py` | Streamlit |
-| [4](#ítem-4--yolo-en-video--tiempo-real) | YOLO11n | Video / tiempo real | `gui.py`, `yolo_video.py` | PySide6 · Streamlit · consola |
+| [1](#ítem-1--faster-r-cnn-en-imágenes) | Faster R-CNN / Mask R-CNN | Imágenes | `a. rcnn_detector.py` | Tkinter · consola · Gradio |
+| [2](#ítem-2--yolo-en-imágenes) | YOLO11 / YOLO12 | Imágenes | `b. yolo_detector.py` | CustomTkinter · consola · Gradio |
+| [3](#ítem-3--faster-r-cnn-en-video--tiempo-real) | Faster R-CNN / Mask R-CNN | Video / tiempo real | `c. app_frcnn.py` | Streamlit |
+| [4](#ítem-4--yolo-en-video--tiempo-real) | YOLO11n | Video / tiempo real | `d. yolo_video` | PySide6 · Streamlit · consola |
 
 **Índice:** [Marco teórico](#marco-teórico) · [Metodología](#metodología-de-evaluación) · [Ítem 1](#ítem-1--faster-r-cnn-en-imágenes) · [Ítem 2](#ítem-2--yolo-en-imágenes) · [Ítem 3](#ítem-3--faster-r-cnn-en-video--tiempo-real) · [Ítem 4](#ítem-4--yolo-en-video--tiempo-real) · [Imágenes vs video](#imágenes-vs-video) · [Conclusiones](#conclusiones) · [Limitaciones y pendientes](#limitaciones-y-pendientes)
 
