@@ -1,0 +1,15 @@
+# Videos originales
+/videos/
+
+# Videos generados en resultados
+/resultados/**/*.mp4
+/resultados/**/*.avi
+/resultados/**/*.mov
+/resultados/**/*.mkv
+/resultados/**/*.webm
+/resultados/**/*.mpeg
+/resultados/**/*.mpg
+/resultados/**/*.m4v
+/resultados/**/*.wmv
+/resultados/**/*.flv
+/resultados/**/*.ts
