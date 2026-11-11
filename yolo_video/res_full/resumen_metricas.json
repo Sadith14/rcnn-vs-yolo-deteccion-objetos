@@ -1,0 +1,37 @@
+{
+  "fuente": "video_prueba.mp4",
+  "modelo": "yolo11n.pt",
+  "resolucion": "640x480",
+  "fps_fuente": 30.0,
+  "frames_procesados": 180,
+  "frames_descartados": 0,
+  "frames_totales_video": 180,
+  "tiempo_total_s": 10.72,
+  "latencia_ms": {
+    "media": 56.53,
+    "mediana": 55.4,
+    "p95": 63.62,
+    "min": 50.82,
+    "max": 112.44
+  },
+  "fps_inferencia_medio": 17.69,
+  "fps_efectivo_extremo_a_extremo": 16.8,
+  "tiempo_real": false,
+  "detecciones_por_frame_media": 2.56,
+  "conf_media": 0.7467,
+  "inestabilidad_detecciones": 0.274,
+  "detecciones_por_clase": {
+    "person": 292,
+    "bus": 81,
+    "tie": 54,
+    "train": 31,
+    "teddy bear": 3
+  },
+  "objetos_unicos_por_clase": {
+    "person": 6,
+    "bus": 5,
+    "train": 7,
+    "teddy bear": 1,
+    "tie": 1
+  }
+}

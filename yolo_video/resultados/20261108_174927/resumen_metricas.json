@@ -1,0 +1,52 @@
+{
+  "fuente": "D:/decimo/vision/unit2/actividad 6/yolo_video/video1.mp4",
+  "modelo": "yolo11n.pt",
+  "resolucion": "1920x1080",
+  "fps_fuente": 25.0,
+  "duracion_video_s": 17.88,
+  "frames_procesados": 281,
+  "frames_descartados": 166,
+  "pct_descartados": 37.1,
+  "frames_totales_video": 447,
+  "tiempo_total_s": 33.34,
+  "latencia_ms": {
+    "media": 63.78,
+    "mediana": 62.38,
+    "p95": 75.7,
+    "min": 49.37,
+    "max": 222.11
+  },
+  "fps_inferencia_medio": 15.68,
+  "fps_efectivo_extremo_a_extremo": 8.43,
+  "factor_tiempo_real": 0.63,
+  "desglose_ms": {
+    "preproceso": 3.93,
+    "inferencia": 53.94,
+    "postproceso": 1.32
+  },
+  "tiempo_real": false,
+  "detecciones_totales": 2311,
+  "detecciones_por_frame_media": 8.22,
+  "max_detecciones_en_un_frame": 13,
+  "frames_sin_detecciones_pct": 0.0,
+  "conf_media": 0.7082,
+  "inestabilidad_detecciones": 0.796,
+  "detecciones_por_clase": {
+    "person": 1981,
+    "handbag": 214,
+    "backpack": 45,
+    "car": 34,
+    "suitcase": 16,
+    "cell phone": 13,
+    "cup": 8
+  },
+  "objetos_unicos_por_clase": {
+    "person": 67,
+    "handbag": 28,
+    "suitcase": 6,
+    "car": 3,
+    "cup": 5,
+    "cell phone": 2,
+    "backpack": 3
+  }
+}
