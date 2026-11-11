@@ -1,0 +1,52 @@
+{
+  "fuente": "D:/decimo/vision/unit2/actividad 6/yolo_video/video2.mp4",
+  "modelo": "yolo11n.pt",
+  "resolucion": "3840x2160",
+  "fps_fuente": 23.98,
+  "duracion_video_s": 25.82,
+  "frames_procesados": 252,
+  "frames_descartados": 367,
+  "pct_descartados": 59.3,
+  "frames_totales_video": 619,
+  "tiempo_total_s": 54.01,
+  "latencia_ms": {
+    "media": 102.62,
+    "mediana": 84.06,
+    "p95": 186.29,
+    "min": 53.86,
+    "max": 308.22
+  },
+  "fps_inferencia_medio": 9.74,
+  "fps_efectivo_extremo_a_extremo": 4.67,
+  "factor_tiempo_real": 0.41,
+  "desglose_ms": {
+    "preproceso": 5.57,
+    "inferencia": 87.71,
+    "postproceso": 1.75
+  },
+  "tiempo_real": false,
+  "detecciones_totales": 1445,
+  "detecciones_por_frame_media": 5.73,
+  "max_detecciones_en_un_frame": 9,
+  "frames_sin_detecciones_pct": 0.0,
+  "conf_media": 0.6795,
+  "inestabilidad_detecciones": 1.076,
+  "detecciones_por_clase": {
+    "person": 778,
+    "bus": 338,
+    "car": 205,
+    "truck": 92,
+    "motorcycle": 20,
+    "bicycle": 11,
+    "umbrella": 1
+  },
+  "objetos_unicos_por_clase": {
+    "bus": 12,
+    "car": 25,
+    "truck": 13,
+    "person": 51,
+    "motorcycle": 3,
+    "bicycle": 2,
+    "umbrella": 1
+  }
+}

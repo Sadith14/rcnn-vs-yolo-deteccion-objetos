@@ -1,0 +1,40 @@
+{
+  "fuente": "0",
+  "modelo": "yolo11n.pt",
+  "resolucion": "640x480",
+  "fps_fuente": 30.0,
+  "duracion_video_s": null,
+  "frames_procesados": 79,
+  "frames_descartados": 0,
+  "pct_descartados": 0.0,
+  "frames_totales_video": 0,
+  "tiempo_total_s": 5.9,
+  "latencia_ms": {
+    "media": 61.16,
+    "mediana": 58.25,
+    "p95": 68.66,
+    "min": 50.02,
+    "max": 206.6
+  },
+  "fps_inferencia_medio": 16.35,
+  "fps_efectivo_extremo_a_extremo": 13.39,
+  "factor_tiempo_real": 0.55,
+  "desglose_ms": {
+    "preproceso": 1.81,
+    "inferencia": 54.7,
+    "postproceso": 1.08
+  },
+  "tiempo_real": false,
+  "detecciones_totales": 79,
+  "detecciones_por_frame_media": 1.0,
+  "max_detecciones_en_un_frame": 1,
+  "frames_sin_detecciones_pct": 0.0,
+  "conf_media": 0.8346,
+  "inestabilidad_detecciones": 0.0,
+  "detecciones_por_clase": {
+    "person": 79
+  },
+  "objetos_unicos_por_clase": {
+    "person": 1
+  }
+}

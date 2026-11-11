@@ -1,0 +1,46 @@
+{
+  "fuente": "d:\\decimo\\vision\\unit2\\actividad 6\\yolo_video\\video_prueba.mp4",
+  "modelo": "yolo11n.pt",
+  "resolucion": "640x480",
+  "fps_fuente": 30.0,
+  "duracion_video_s": 6.0,
+  "frames_procesados": 108,
+  "frames_descartados": 72,
+  "pct_descartados": 40.0,
+  "frames_totales_video": 180,
+  "tiempo_total_s": 7.55,
+  "latencia_ms": {
+    "media": 55.78,
+    "mediana": 54.72,
+    "p95": 65.94,
+    "min": 38.66,
+    "max": 74.65
+  },
+  "fps_inferencia_medio": 17.93,
+  "fps_efectivo_extremo_a_extremo": 14.3,
+  "factor_tiempo_real": 0.6,
+  "desglose_ms": {
+    "preproceso": 4.41,
+    "inferencia": 48.58,
+    "postproceso": 1.04
+  },
+  "tiempo_real": false,
+  "detecciones_totales": 269,
+  "detecciones_por_frame_media": 2.49,
+  "max_detecciones_en_un_frame": 4,
+  "frames_sin_detecciones_pct": 0.0,
+  "conf_media": 0.7573,
+  "inestabilidad_detecciones": 0.308,
+  "detecciones_por_clase": {
+    "person": 172,
+    "bus": 46,
+    "tie": 32,
+    "train": 19
+  },
+  "objetos_unicos_por_clase": {
+    "person": 5,
+    "bus": 3,
+    "train": 5,
+    "tie": 1
+  }
+}
